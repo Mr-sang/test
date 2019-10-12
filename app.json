@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/member/index/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/order/ludan"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Q_LUDAN",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#FF3A59",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/image/dollar6.png",
+        "selectedIconPath": "pages/image/dollar4.png"
+      },
+      {
+        "pagePath": "pages/order/ludan",
+        "text": "撸单",
+        "iconPath": "pages/image/dollar3.png",
+        "selectedIconPath": "pages/image/dollar7.png"
+      },
+      {
+        "pagePath": "pages/member/index/index",
+        "text": "个人中心",
+        "iconPath": "pages/image/dollar.png",
+        "selectedIconPath": "pages/image/dollar5.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}

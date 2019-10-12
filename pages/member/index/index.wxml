@@ -1,0 +1,10 @@
+<!--pages/member/index/index.wxml-->
+<!-- <text>pages/member/index/index.wxml</text> -->
+
+<view class='main'>
+  <image src='{{pic}}' class='fl'></image>
+  <text class='fl'>{{name}},欢迎你~~</text>
+</view>
+<view class='out-bottom' bindtap='logout'>
+    <button>退出登陆</button>
+</view>
